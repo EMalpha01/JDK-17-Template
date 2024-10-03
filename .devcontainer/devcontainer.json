@@ -4,10 +4,13 @@
     "customizations": {
       "vscode": {
         "extensions": [
-          "vscjava.vscode-java-pack"
+          "vscjava.vscode-java-pack",  // Java Extension Pack (includes IntelliSense, Maven/Gradle, Debugger)
+          "vscjava.vscode-maven",      // Maven integration
+          "vscjava.vscode-gradle",     // Gradle integration
+          "vscjava.vscode-java-debug"  // Java Debugging Tools
         ],
         "settings": {
-          "editor.minimap.enabled": false,  // Disables the minimap
+          "editor.minimap.enabled": false,    // Disables the minimap
           "workbench.sideBar.location": "right"  // Moves the explorer to the right side
         }
       }
