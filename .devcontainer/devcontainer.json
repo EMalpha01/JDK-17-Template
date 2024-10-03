@@ -1,0 +1,15 @@
+{
+    "name": "Java Development",
+    "image": "mcr.microsoft.com/devcontainers/java:17",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "vscjava.vscode-java-pack"
+        ],
+        "settings": {
+          "editor.minimap.enabled": false,  // Disables the minimap
+          "workbench.sideBar.location": "right"  // Moves the explorer to the right side
+        }
+      }
+    }
+}
